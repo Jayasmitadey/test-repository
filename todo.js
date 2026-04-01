@@ -13,3 +13,5 @@ btn.addEventListener("click", function() {
   list.appendChild(div);
   input.value = "";  
 });
+
+console.log("Welcome to todo list");
