@@ -33,6 +33,7 @@ h1{
     border-radius: 31px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-left: 10px;
 }
 #inputbox{
@@ -52,14 +53,45 @@ h1{
 }
 
 #tasks_list{
-    height: 35px;
-    width: px;
-     margin:20px 20px;
-     margin-bottom: 0;
-    border: 2.5px solid rgba(20, 150, 225, 0.963);
-    border-radius: 31px;
+    /* height: 35px; */
+   
+    
+    /* align-items: center; */
+    /* padding-left: 10px; */
+    /* color:rgb(150, 27, 99); */
+    margin-top: 20px;
+} 
+#tasks_list span{
+    color:rgb(219, 27, 129);
+    /* padding:2px 70px 2px 5px; */
+    /* margin:20px 0px 10px 0px; */
+
+}
+#tasks_list button{
+    
+    border:rgb(219, 27, 129);
+    background-color:rgb(219, 27, 129);
+    color: white;
+    height: 30px;
+    width: 40px;
+    border-radius: 17px;
+    /* margin:0px 0px 0px 72px; */
+}
+#tasks_list input{
+    margin: 0px 10px 0px 7px;
+    accent-color: rgb(219, 27, 129);
+     
+ 
+}
+.listItem {
+    margin: 7px 0;
+}
+#tasks_list div{
+    /* border: 2.1px solid rgb(219, 27, 129); */
+    /* margin:20px 20px; */
+    margin-bottom: 0px;
+    border-radius:20px;
     display: flex;
-    align-items: center;
-    padding-left: 10px;
-    color:rgb(150, 27, 99);
+    justify-content: space-between;
+
 }
